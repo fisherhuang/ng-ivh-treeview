@@ -1,0 +1,28 @@
+.dropdown-treeview{
+	position:relative;
+}
+
+.dropdown-treeview .treeview-container
+{
+	position:absolute;
+	top:auto;
+	left:auto;
+	z-index:99;
+	background-color: #fff;
+	border:1px solid #d4d4d4;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #d2d2d2;
+	width:auto;
+	min-width: 200px;
+	padding:5px 10px;
+}
+
+.dropdown-treeview .ivh-treeview-node-content
+{
+	padding-left:15px;
+}
+
+.dropdown-treeview ul.ivh-treeview li.ivh-treeview-node-leaf .ivh-treeview-twistie-leaf
+{
+	display:none;
+}
